@@ -1,0 +1,40 @@
+.contenedor{
+    display: flex;
+    background-color: blueviolet;
+    padding: 3%;
+    width: 80%;
+    margin: 5% auto;
+}
+.centrar{
+    justify-content: center;
+
+}
+.derecha{
+    justify-content: right;
+}
+.reversa{
+    flex-direction: row-reverse;
+}
+
+.ajustar{
+    flex-wrap: wrap;
+}
+
+.espacio{
+    justify-content: space-between;
+}
+.espacio-borde{
+    justify-content: space-around;
+}
+.centrado{
+    align-items: stretch;
+}
+
+.columnas{
+    flex-direction: column;
+}
+
+.ajustar-tam{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
